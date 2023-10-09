@@ -71,8 +71,8 @@ function handleSliderClick(event, direction) {
 }
 
 sliders.forEach((slider) => {
-  const leftHandle = slider.querySelector("#left-handle");
-  const rightHandle = slider.querySelector("#right-handle");
+  const leftHandle = slider.querySelector(".left-handle");
+  const rightHandle = slider.querySelector(".right-handle");
 
   if (rightHandle) {
     rightHandle.addEventListener("click", (event) => {

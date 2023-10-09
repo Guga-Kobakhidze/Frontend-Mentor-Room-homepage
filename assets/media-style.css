@@ -1,5 +1,11 @@
 /* Max Width 1280px */
 
+@media screen and (max-width: 1300px) {
+  .right_side {
+    max-width: 415px;
+  }
+}
+
 @media screen and (max-width: 1260px) {
   .slider {
     flex-direction: column;
